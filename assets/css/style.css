@@ -15,7 +15,7 @@ body {
 margin: 2%;
 }
 .pageContainer{
-    border-radius: 20px;
+    border-radius: 10px;
     width: 100%;
     height: 85vh;
     overflow: scroll;
@@ -26,18 +26,17 @@ margin: 2%;
 
 
 .contacts > a {
-    font-size: 40px;
+    font-size: 175%;
     color: black;
     display: block;
-    margin-top: 4vh;
-    margin-bottom: 4vh;
+    margin-top: 5vh;
     border-radius: 20%;
 }
 
 .contacts{
-    height: 50vh;
+    height: 50%;
     text-align: center;
-    border-radius: 20px;
+    border-radius: 10px;
     overflow: scroll;
     background-color: rgba(255, 255, 255, 0.25);
     -webkit-backdrop-filter: blur(10px);

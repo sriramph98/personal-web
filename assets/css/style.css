@@ -1,24 +1,46 @@
 body {
-    background-color: white;
+    /* background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(32,42,52,1) 51%, rgba(129,129,129,1) 100%);    width: 100%; */
+  background-image: url("/assets/images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+    height: 100vh;
+}
+
+.customNav{
+    background-color: rgba(255, 255, 255, 0.2);
+
+}
+
+.defaultMargin{
+margin: 2%;
+}
+.pageContainer{
+    border-radius: 20px;
+    width: 100%;
+    height: 85vh;
+    overflow: scroll;
+    background-color: rgba(255, 255, 255, 0.25);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
 }
 
 
-
-.card-body-style {
-    background-color: whitesmoke;
-}
-
-
-div.icons>img {
-    margin: 20px;
-    align-self: center;
-    padding: 15px;
+.contacts > a {
+    font-size: 40px;
+    color: black;
+    display: block;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
     border-radius: 20%;
-    width: 70px;
-    background-color: rgb(240, 240, 240);
 }
 
-.contact{
-    position: fixed;
+.contacts{
+    height: 50vh;
+    text-align: center;
+    border-radius: 20px;
+    overflow: scroll;
+    background-color: rgba(255, 255, 255, 0.25);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
 }
 
